@@ -10,7 +10,7 @@ use App\Models\Trains;
 class PageController extends Controller
 {
     public function index(){
-        $trains = movie::all();
-        return view('home', compact('trains'));
+        $trains = trains::all();
+        return view('trains', compact('trains'));
     }
 }

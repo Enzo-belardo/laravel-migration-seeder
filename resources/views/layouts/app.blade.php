@@ -13,7 +13,7 @@
 </head>
 <body>
     @include('partials.header')
-    <main class="bg-dark ">
+    <main class="bg-primary">
         @yield('main-content')
     </main>
     @include('partials.footer')  
