@@ -19,9 +19,19 @@
                               <span>{{ $train->stazione_di_partenza }}</span>
                             </div>
 
-                            <div class="card-text ">
-                              <span class="fw-bold">Stazione di arrivo: </span>
+                            <div class="card-text">
+                              <span class="fw-bold">Stazione di arrivo:</span>
                               <span>{{ $train->stazione_di_arrivo }}</span>
+                            </div>
+
+                            <div class="card-text ">
+                              <span class="fw-bold">Data e ora di partenza: </span>
+                              <span>{{ $train->orario_di_partenza }}</span>
+                            </div>
+
+                            <div class="card-text ">
+                              <span class="fw-bold">Data e ora di arrivo: </span>
+                              <span>{{ $train->orario_di_arrivo }}</span>
                             </div>
 
                                 
